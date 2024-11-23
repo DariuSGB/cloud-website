@@ -5,6 +5,6 @@ header("Cache-Control: post-check=0, pre-check=0", false);
 header("Pragma: no-cache");
 
 // Serve the image
-header('Content-Type: image/png');
-readfile('img/flag.png');
+header('Content-Type: image/jpg');
+readfile('img/flag.jpg');
 ?>
